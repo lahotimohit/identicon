@@ -2,12 +2,15 @@ defmodule Identicon do
 
   def main(input) do
     input
-    |> has_input
+    |> hash_input
   end
 
   def hash_input(input) do
-    :crypto.hash(:md5, input)
+    hex = :crypto.hash(:md5, input)
     |> :binary.bin_to_list
+
+    %Identicon.Image{hex: hex}
+
   end
 
 end
