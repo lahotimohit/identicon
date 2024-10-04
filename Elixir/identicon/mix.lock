@@ -1,0 +1,5 @@
+%{
+  "egd": {:git, "https://github.com/erlang/egd.git", "1cea959544de7dd40a3284ba571a58939de57616", []},
+  "ezlib": {:hex, :ezlib, "1.0.13", "3c7f62862850a241159c10b218ecf580bce54d0890601b65144dacc2633be2b0", [:rebar3], [{:p1_utils, "1.0.26", [hex: :p1_utils, repo: "hexpm", optional: false]}], "hexpm", "9ee62ab3f8ed55a0fd11a9569fcb8e458683f95575417272192b069f092abfbb"},
+  "p1_utils": {:hex, :p1_utils, "1.0.26", "67b0c4ac9fa3ba3ef563b31aa111b0a004439a37fac85e027f1c3617e1c7ec6c", [:rebar3], [], "hexpm", "d0379e8c1156b98bd64f8129c1de022fcca4f2fdb7486ce73bf0ed2c3376b04c"},
+}
